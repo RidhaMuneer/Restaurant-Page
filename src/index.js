@@ -1,1 +1,4 @@
-console.log("Up and running");
+import heroScreen from "./hero.js";
+import './style.css';
+
+heroScreen();

@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(174, 118, 44);
+}
+
+.options{
+    display: flex;
+    gap: 20%;
+}
+
+button {
+    color: white;
+    text-decoration: none !important;
+    border: 0px;
+    background-color: transparent !important;
+    font-size: larger !important;
+    border-radius: 5px;
+}
+  
+.nav-section {
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.resturant-icon{
+    margin-top: 2px;
+    width: 50px;
+    height: 50px;
+}
+
+.hero-section{
+    padding-top: 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.header {
+    font-size: 80px;
+    font-style: italic;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+    animation: slide-in 2s forwards;
+}
+  
+@keyframes slide-in {
+    0% {
+      width: 0;
+    }
+    100% {
+      width: 100%;
+    }
+}
+  
+.main-section {
+    height: 1001px;
+    background-image: url('./main-background.jpg');
+    background-size: cover;
+}
+
+.nav-section-breakfast{
+    padding-top: 2%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 5%;
+    gap: 10%;
+}
+
+.menu-box{
+    margin-top: 7%;
+    padding: 10px;
+    /* border: 1px rgba(249, 141, 16, 0.937) solid; */
+    width: 400px;
+    height: 600px;
+}
+
+.menu-price{
+    margin-bottom: 30px;
+    margin-left: 10px;
+    margin-top: -5px;
+    font-weight: 100;
+}
+
